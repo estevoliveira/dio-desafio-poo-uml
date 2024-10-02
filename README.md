@@ -1,6 +1,7 @@
 # dio-desafio-poo-uml
 Desafio para criar um simples diagrama de UML do iphone
 
+```mermaid
 classDiagram
     class ReprodutorMusical {
         -Musica[] playList
@@ -25,3 +26,4 @@ classDiagram
     Iphone --> ReprodutorMusical
     Iphone --> Telefone
     Iphone --> NavegadorInternet
+```
